@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>2</fileVersion>
+    <fileChecksum>2528787777</fileChecksum>
+    <configuration>
+        <name>Debug</name>
+        <outputs>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\src\uart.c</file>
+            <file>$PROJ_DIR$\..\UART1.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\src\sys.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\Device\Include\Function_define_MS51_32K_IAR.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\uart.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\uart.r51</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\watchdog.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\delay.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\uart4.h</file>
+            <file>$TOOLKIT_DIR$\inc\clib\stdio.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\sys.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\sys.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\timer.h</file>
+            <file>$TOOLKIT_DIR$\inc\clib\sysmac.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\Device\Include\SFR_Macro_MS51_32K_IAR.h</file>
+            <file>$TOOLKIT_DIR$\inc\clib\string.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\uart2.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\adc.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\UART1.pbi</file>
+            <file>$PROJ_DIR$\Debug\Exe\UART2.d51</file>
+            <file>$PROJ_DIR$\Debug\Obj\UART2.pbd</file>
+            <file>$PROJ_DIR$\Debug\Obj\sys.r51</file>
+            <file>$PROJ_DIR$\Debug\Obj\UART1.r51</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\uart.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\uart3.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\Device\Include\MS51_32K_IAR.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\pwm0.h</file>
+            <file>$TOOLKIT_DIR$\inc\clib\stdarg.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\IAP.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\eeprom.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\UART2.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\uart2.r51</file>
+            <file>$PROJ_DIR$\Debug\Obj\sys.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\uart2.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\UART2_TX_RX.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\UART2_TX_RX.r51</file>
+            <file>$PROJ_DIR$\Debug\Obj\UART2_TX_RX.pbi</file>
+            <file>$PROJ_DIR$\..\UART2.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\src\uart2.c</file>
+            <file>$TOOLKIT_DIR$\lib\clib\cl-pli-nsic-2h16inc.r51</file>
+            <file>$PROJ_DIR$\Debug\List\UART2.map</file>
+            <file>$TOOLKIT_DIR$\config\devices\NuvoTon\lnk51ew_MS51_8K.xcl</file>
+            <file>$PROJ_DIR$\..\UART2_TX_RX.c</file>
+        </outputs>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\Library\StdDriver\src\uart.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 4</file>
+                </tool>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 5</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 23 17 26 15 29 28 24 13 14 9 3 11 7 12 6 16 8 25 27</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\UART1.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 18</file>
+                </tool>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 22</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\Library\StdDriver\src\sys.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 10</file>
+                </tool>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 21</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 32</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 3 6 7 8 9 11 12 16 13 14 15 17 29 23 28 26 24 27 25</file>
+                </tool>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 25 14 9 27 13 15 3 17 11 29 7 23 12 28 6 26 16 24 8</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>XLINK</name>
+                    <file> 19 40</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Debug\Exe\UART2.d51</name>
+            <outputs>
+                <tool>
+                    <name>XLINK</name>
+                    <file> 40</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>XLINK</name>
+                    <file> 41 21 31 35 39</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\UART2.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 30</file>
+                </tool>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 31</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 8 7 3 6 9 11 12 16 13 14 15 17 29 23 28 26 24 27 25</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\Library\StdDriver\src\uart2.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 30</file>
+                </tool>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 31</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 33</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 25 14 9 27 13 15 3 17 11 29 7 23 12 28 6 26 16 24 8</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\UART2_TX_RX.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 36</file>
+                </tool>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 35</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 34</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 9 12 11 16 13 3 7 6 8 14 15 17 29 23 28 26 24 27 25</file>
+                </tool>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 25 14 9 27 13 15 3 17 11 29 7 23 12 28 6 26 16 24 8</file>
+                </tool>
+            </inputs>
+        </file>
+    </configuration>
+    <configuration>
+        <name>Release</name>
+        <outputs />
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>XLINK</tool>
+        </forcedrebuild>
+    </configuration>
+</project>

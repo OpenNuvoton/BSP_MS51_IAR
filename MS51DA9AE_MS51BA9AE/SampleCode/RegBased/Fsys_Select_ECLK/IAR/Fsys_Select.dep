@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>4</fileVersion>
+    <fileChecksum>969353274</fileChecksum>
+    <configuration>
+        <name>Debug</name>
+        <outputs>
+            <file>$TOOLKIT_DIR$\inc\clib\sysmac.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\IAP.h</file>
+            <file>$TOOLKIT_DIR$\inc\clib\stdio.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\timer.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\delay.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\delay.r51</file>
+            <file>$TOOLKIT_DIR$\inc\clib\stdarg.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\Device\Include\SFR_Macro_MS51_8K_IAR.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\src\delay.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\delay.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\Fsys_SEL.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\List\TFsys_Select.map</file>
+            <file>$PROJ_DIR$\Debug\Exe\TFsys_Select.d51</file>
+            <file>$TOOLKIT_DIR$\lib\clib\cl-pli-nsic-2h16inc.r51</file>
+            <file>$PROJ_DIR$\Debug\Obj\Fsys_SEL.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\sys.r51</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\uart.h</file>
+            <file>$TOOLKIT_DIR$\config\devices\Nuvoton\lnk51ew_MS51_8K.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\sys.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\sys.__cstat.et</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\watchdog.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\src\sys.c</file>
+            <file>$PROJ_DIR$\..\Fsys_SEL.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\sys.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\eeprom.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\Device\Include\MS51_8K_IAR.H</file>
+            <file>$TOOLKIT_DIR$\inc\clib\string.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\Fsys_SEL.r51</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\Device\Include\Function_Define_MS51_8K_IAR.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\delay.__cstat.et</file>
+        </outputs>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>XLINK</name>
+                    <file> 12 11</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\Library\StdDriver\src\delay.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 5</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 29</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 9</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 25 7 23 24 4 16 3 1 20 28 2 6 0 26</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 20 7 4 24 0 28 23 3 26 16 25 1 2 6</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Debug\Exe\TFsys_Select.d51</name>
+            <outputs>
+                <tool>
+                    <name>XLINK</name>
+                    <file> 11</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>XLINK</name>
+                    <file> 17 5 27 15 13</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\Library\StdDriver\src\sys.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 15</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 19</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 18</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 25 7 23 24 4 16 3 1 20 28 2 6 0 26</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 28 20 4 24 0 7 23 3 26 16 25 1 2 6</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Fsys_SEL.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 27</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 10</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 14</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 25 7 23 24 4 16 3 1 20 28 2 6 0 26</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 20 28 4 24 0 7 23 3 26 16 25 1 2 6</file>
+                </tool>
+            </inputs>
+        </file>
+    </configuration>
+    <configuration>
+        <name>Release</name>
+        <outputs />
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>XLINK</tool>
+        </forcedrebuild>
+    </configuration>
+</project>

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>4</fileVersion>
+    <fileChecksum>1308121002</fileChecksum>
+    <configuration>
+        <name>Debug</name>
+        <outputs>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\IAP.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\Device\Include\SFR_Macro.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\TrimLIRC.h</file>
+            <file>$TOOLKIT_DIR$\inc\clib\stdarg.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\vref.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\sys.r51</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\acmp.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\src\delay.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\gpio.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\wdt.h</file>
+            <file>$PROJ_DIR$\..\FSYS_MHIRC.C</file>
+            <file>$PROJ_DIR$\Debug\Obj\Fsys_SEL.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\pinint.h</file>
+            <file>$TOOLKIT_DIR$\config\devices\Nuvoton\lnk51ew_MS51_8K.xcl</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\adc.h</file>
+            <file>$TOOLKIT_DIR$\inc\clib\sysmac.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\pwm.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\wkt.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\pdma.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\Fsys_SEL.r51</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\Device\Include\MS51_8K_IAR.H</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\src\sys.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\Device\Include\Function_Define_MS51_8K_IAR.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\delay.__cstat.et</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\Device\Include\Function_Define_ML51.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\exint.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\watchdog.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\delay.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\i2c.h</file>
+            <file>$PROJ_DIR$\Debug\List\Fsys_MoidfyHIRC.map</file>
+            <file>$PROJ_DIR$\..\Fsys_SEL.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\lowpower.h</file>
+            <file>$PROJ_DIR$\Debug\Exe\TFsys_Select.d51</file>
+            <file>$PROJ_DIR$\Debug\Obj\FSYS_MHIRC.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\timer.h</file>
+            <file>$TOOLKIT_DIR$\inc\clib\string.h</file>
+            <file>$TOOLKIT_DIR$\lib\clib\cl-pli-nsic-2h16inc.r51</file>
+            <file>$TOOLKIT_DIR$\config\devices\Nuvoton\lnk51ew_MS51_16K.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\FSYS_MHIRC.r51</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\spi.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\delay.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\capture.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\Device\Include\SFR_Macro_MS51_8K_IAR.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\FSYS_MHIRC.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\sys.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\uart.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\power.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\sys.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\Device\Include\ML51_IAR.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\eeprom.h</file>
+            <file>$PROJ_DIR$\Debug\Exe\Fsys_MoidfyHIRC.d51</file>
+            <file>$PROJ_DIR$\Debug\Obj\sys.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\delay.r51</file>
+            <file>$TOOLKIT_DIR$\inc\clib\stdio.h</file>
+        </outputs>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>XLINK</name>
+                    <file> 50 29</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\Library\StdDriver\src\delay.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 23</file>
+                </tool>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 52</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 40</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 20 42 47 49 27 45 34 0 26 22 53 3 15 35</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 26 42 27 49 15 22 47 34 35 45 20 0 53 3</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\FSYS_MHIRC.C</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 43</file>
+                </tool>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 38</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 33</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 20 42 47 49 27 45 34 0 26 22 53 3 15 35</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 26 22 27 49 15 42 47 34 35 45 20 0 53 3</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\Library\StdDriver\src\sys.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 51</file>
+                </tool>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 5</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 44</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 20 42 47 49 27 45 34 0 26 22 53 3 15 35</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 22 26 27 49 15 42 47 34 35 45 20 0 53 3</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Fsys_SEL.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 19</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 11</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 48 53 3 15 35 1 24 47 8 45 27 12 14 49 17 9 16 0 6 4 25 41 28 39 18 46 31 2</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Debug\Exe\TFsys_Select.d51</name>
+            <inputs>
+                <tool>
+                    <name>XLINK</name>
+                    <file> 37 38 5 36</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Debug\Exe\Fsys_MoidfyHIRC.d51</name>
+            <outputs>
+                <tool>
+                    <name>XLINK</name>
+                    <file> 29</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>XLINK</name>
+                    <file> 13 52 38 5 36</file>
+                </tool>
+            </inputs>
+        </file>
+    </configuration>
+    <configuration>
+        <name>Release</name>
+        <outputs />
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>XLINK</tool>
+        </forcedrebuild>
+    </configuration>
+</project>

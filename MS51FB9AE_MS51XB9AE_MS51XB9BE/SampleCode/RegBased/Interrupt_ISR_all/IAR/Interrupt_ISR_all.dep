@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>4</fileVersion>
+    <fileChecksum>3308611464</fileChecksum>
+    <configuration>
+        <name>Debug</name>
+        <outputs>
+            <file>$PROJ_DIR$\..\..\..\..\Library\Device\Include\Function_define.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\isr.r51</file>
+            <file>$PROJ_DIR$\..\ISR.c</file>
+            <file>$PROJ_DIR$\Debug\Exe\TInterrupt_ISR_all.d51</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\watchdog.h</file>
+            <file>$TOOLKIT_DIR$\inc\clib\stdio.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\Common.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\delay.h</file>
+            <file>$TOOLKIT_DIR$\inc\clib\string.h</file>
+            <file>$TOOLKIT_DIR$\inc\clib\sysmac.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\uart.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\sys.r51</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\eeprom.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\sys.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\Pin_Int.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\ISR_main.r51</file>
+            <file>$TOOLKIT_DIR$\inc\clib\stdarg.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\IAP.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\sys.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\src\isr.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\Pin_Int.r51</file>
+            <file>$PROJ_DIR$\..\..\Pin_Interrupt\Pin_Int.C</file>
+            <file>$PROJ_DIR$\Debug\Obj\isr.pbi</file>
+            <file>$PROJ_DIR$\..\ISR_main.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\src\sys.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\Device\Include\MS51_16K_IAR.H</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\Device\Include\SFR_Macro.h</file>
+            <file>$PROJ_DIR$\Debug\List\TInterrupt_ISR_all.map</file>
+            <file>$PROJ_DIR$\Debug\Obj\sys.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\UART0_RW.r51</file>
+            <file>$PROJ_DIR$\Debug\Obj\isr.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\config\devices\Nuvoton\lnk51ew_MS51_16K.xcl</file>
+            <file>$TOOLKIT_DIR$\lib\clib\cl-pli-nsid-2h16inc.r51</file>
+            <file>$PROJ_DIR$\Debug\Obj\ISR_main.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\ISR_main.__cstat.et</file>
+            <file>$PROJ_DIR$\..\..\UART0_Interrupt_RW\UART0_RW.C</file>
+            <file>$PROJ_DIR$\Debug\Obj\UART0_RW.pbi</file>
+        </outputs>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>XLINK</name>
+                    <file> 3 27</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\ISR.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 1</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 22</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Debug\Exe\TInterrupt_ISR_all.d51</name>
+            <outputs>
+                <tool>
+                    <name>XLINK</name>
+                    <file> 27</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>XLINK</name>
+                    <file> 31 1 15 11 32</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\Library\StdDriver\src\isr.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 1</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 22</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 30</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 25 5 16 9 8 26 0 17 13 12 6 7 10 4</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 9 12 26 4 5 17 7 16 8 0 13 6 10 25</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\Pin_Interrupt\Pin_Int.C</name>
+            <outputs>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 20</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 14</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 12 26 4 5 17 7 16 9 8 0 13 6 10 25</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\ISR_main.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 15</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 33</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 34</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 25 5 16 9 8 26 0 17 13 12 6 7 10 4</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 5 7 9 17 16 26 12 4 8 0 13 6 10 25</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\Library\StdDriver\src\sys.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 11</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 18</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 28</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 25 5 16 9 8 26 0 17 13 12 6 7 10 4</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 26 4 12 5 17 7 16 9 8 0 13 6 10 25</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\UART0_Interrupt_RW\UART0_RW.C</name>
+            <outputs>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 29</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 36</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 6 0 8 13 10 5 26 17 12 7 4 16 9 25</file>
+                </tool>
+            </inputs>
+        </file>
+    </configuration>
+    <configuration>
+        <name>Release</name>
+        <outputs />
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>XLINK</tool>
+        </forcedrebuild>
+    </configuration>
+</project>

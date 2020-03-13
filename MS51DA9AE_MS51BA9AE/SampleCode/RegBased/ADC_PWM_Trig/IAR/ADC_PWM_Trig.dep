@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>4</fileVersion>
+    <fileChecksum>3655782350</fileChecksum>
+    <configuration>
+        <name>Debug</name>
+        <outputs>
+            <file>$TOOLKIT_DIR$\inc\clib\stdarg.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\sys.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\spi.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\uart.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\sys.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\uart.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\sys.r51</file>
+            <file>$PROJ_DIR$\Debug\Obj\ADC_PWM.__cstat.et</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\power.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\pwm.h</file>
+            <file>$TOOLKIT_DIR$\inc\clib\sysmac.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\TrimLIRC.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\exint.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\wkt.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\watchdog.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\i2c.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\ADC.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\pinint.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\lowpower.h</file>
+            <file>$PROJ_DIR$\Debug\Exe\TADC_PWM_Trig.d51</file>
+            <file>$PROJ_DIR$\Debug\Obj\ADC.r51</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\capture.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\gpio.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\Device\Include\ML51_IAR.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\vref.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\adc.h</file>
+            <file>$PROJ_DIR$\..\ADC.C</file>
+            <file>$PROJ_DIR$\Debug\Obj\uart.r51</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\Device\Include\SFR_Macro.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\acmp.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\timer.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\eeprom.h</file>
+            <file>$PROJ_DIR$\..\ADC_PWM.C</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\Device\Include\Function_Define_ML51.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\Device\Include\MS51_8K_IAR.H</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\src\sys.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\delay.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\src\uart.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\Device\Include\SFR_Macro_MS51_8K_IAR.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\wdt.h</file>
+            <file>$TOOLKIT_DIR$\inc\clib\stdio.h</file>
+            <file>$TOOLKIT_DIR$\inc\clib\string.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\Device\Include\Function_Define_MS51_8K_IAR.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\IAP.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\pdma.h</file>
+            <file>$TOOLKIT_DIR$\lib\clib\cl-pli-nsic-2h16inc.r51</file>
+            <file>$PROJ_DIR$\Debug\List\TADC_PWM_Trig.map</file>
+            <file>$PROJ_DIR$\Debug\Obj\ADC_PWM.pbi</file>
+            <file>$TOOLKIT_DIR$\config\devices\Nuvoton\lnk51ew_MS51_8K.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\ADC_PWM.r51</file>
+            <file>$PROJ_DIR$\Debug\Obj\uart.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\sys.__cstat.et</file>
+        </outputs>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>XLINK</name>
+                    <file> 19 46</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Debug\Exe\TADC_PWM_Trig.d51</name>
+            <outputs>
+                <tool>
+                    <name>XLINK</name>
+                    <file> 46</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>XLINK</name>
+                    <file> 48 49 6 27 45</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\ADC.C</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 16</file>
+                </tool>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 20</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 23 40 0 10 41 28 33 4 22 3 36 17 25 31 13 39 9 43 29 24 12 21 15 2 44 8 18 11</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\ADC_PWM.C</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 7</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 47</file>
+                </tool>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 49</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 14 38 36 31 10 42 4 30 41 3 34 43 40 0</file>
+                </tool>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 34 38 4 31 36 3 30 43 14 42 40 0 10 41</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\Library\StdDriver\src\sys.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 51</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 1</file>
+                </tool>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 6</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 42 14 36 31 10 38 4 30 41 3 34 43 40 0</file>
+                </tool>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 34 38 4 31 36 3 30 43 14 42 40 0 10 41</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\Library\StdDriver\src\uart.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 50</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 5</file>
+                </tool>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 27</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 14 38 36 31 10 42 4 30 41 3 34 43 40 0</file>
+                </tool>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 34 38 4 31 36 3 30 43 14 42 40 0 10 41</file>
+                </tool>
+            </inputs>
+        </file>
+    </configuration>
+    <configuration>
+        <name>Release</name>
+        <outputs />
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>XLINK</tool>
+        </forcedrebuild>
+    </configuration>
+</project>

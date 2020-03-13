@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>4</fileVersion>
+    <fileChecksum>2731698084</fileChecksum>
+    <configuration>
+        <name>Debug</name>
+        <outputs>
+            <file>$TOOLKIT_DIR$\inc\clib\sysmac.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\src\IAP.c</file>
+            <file>$PROJ_DIR$\..\IAP_program_Config.C</file>
+            <file>$PROJ_DIR$\Debug\Obj\sys.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\Device\Include\SFR_Macro.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\src\sys.c</file>
+            <file>$TOOLKIT_DIR$\config\devices\Nuvoton\lnk51ew_MS51_8K.xcl</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\eeprom.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\IAP.r51</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\Device\Include\Function_Define_MS51_8K_IAR.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\uart.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\IAP_AP_program_AP_Dataflash.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\Common.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\IAP_AP_program_AP_Dataflash.r51</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\Device\Include\SFR_Macro_MS51_8K_IAR.h</file>
+            <file>$PROJ_DIR$\Debug\Exe\TIAP_Dataflash_EEPROM.d51</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\delay.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\eeprom.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\sys.__cstat.et</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\src\IAP_BYTE.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\IAP_BYTE.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\clib\stdarg.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\watchdog.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\IAP.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\IAP_BYTE.__cstat.et</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\Device\Include\MS51_16K_IAR.H</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\sys.h</file>
+            <file>$TOOLKIT_DIR$\config\devices\_generic\lnk51ew_8052.xcl</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\Device\Include\Function_define.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\uart.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\Device\Include\MS51_8K_IAR.H</file>
+            <file>$TOOLKIT_DIR$\inc\clib\stdio.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\timer.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\eeprom.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\src\uart.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\eeprom.r51</file>
+            <file>$PROJ_DIR$\Debug\Exe\IAP_Dataflash_EEPROM.d51</file>
+            <file>$PROJ_DIR$\Debug\Obj\uart.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Exe\IAP_AP_program_AP_Dataflash.d51</file>
+            <file>$PROJ_DIR$\Debug\Obj\IAP_BYTE.r51</file>
+            <file>$TOOLKIT_DIR$\lib\clib\cl-pli-nsic-2h16inc.r51</file>
+            <file>$TOOLKIT_DIR$\inc\clib\string.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\IAP.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\sys.r51</file>
+            <file>$PROJ_DIR$\Debug\Obj\uart.r51</file>
+            <file>$PROJ_DIR$\Debug\Obj\IAP_program_Config.r51</file>
+            <file>$PROJ_DIR$\Debug\List\IAP_LD_Program_AP.map</file>
+            <file>$PROJ_DIR$\Debug\Obj\IAP_LD_Program_AP.pbi</file>
+            <file>$PROJ_DIR$\..\IAP_AP_program_AP_Dataflash.C</file>
+            <file>$PROJ_DIR$\..\IAP_LD_Program_AP.C</file>
+            <file>$PROJ_DIR$\Debug\Obj\IAP_program_Config.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\IAP_AP_program_LD.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\src\eeprom.c</file>
+            <file>$PROJ_DIR$\..\IAP_AP_program_LD.C</file>
+            <file>$PROJ_DIR$\..\IAP_BYTE.C</file>
+            <file>$PROJ_DIR$\Debug\Obj\IAP_LD_Program_AP.r51</file>
+            <file>$PROJ_DIR$\Debug\Exe\IAP_AP_program_LD.d51</file>
+            <file>$PROJ_DIR$\Debug\Obj\IAP_AP_program_LD.r51</file>
+            <file>$PROJ_DIR$\Debug\Obj\IAP.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\IAP_program_Config.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Exe\IAP_LD_Program_AP.d51</file>
+        </outputs>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>XLINK</name>
+                    <file> 60 46</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\Library\StdDriver\src\IAP.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 58</file>
+                </tool>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 8</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 42</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 30 14 26 7 16 10 32 23 22 9 31 21 0 41</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 26 9 32 7 0 16 22 41 10 30 14 23 31 21</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\IAP_program_Config.C</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 59</file>
+                </tool>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 45</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 50</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 30 14 26 7 16 10 32 23 22 9 31 21 0 41</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 26 9 32 7 0 14 16 22 41 10 30 23 31 21</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\Library\StdDriver\src\sys.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 18</file>
+                </tool>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 43</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 3</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 30 14 26 7 16 10 32 23 22 9 31 21 0 41</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 9 26 32 7 0 14 16 22 41 10 30 23 31 21</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Debug\Exe\TIAP_Dataflash_EEPROM.d51</name>
+            <inputs>
+                <tool>
+                    <name>XLINK</name>
+                    <file> 27 35 39 43 44 40</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\Library\StdDriver\src\IAP_BYTE.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 39</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 20</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\Library\StdDriver\src\uart.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 37</file>
+                </tool>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 44</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 29</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 25 31 21 0 41 4 28 26 7 12 16 10</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 12 4 21 31 26 10 0 41 28 7 16 25</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Debug\Exe\IAP_Dataflash_EEPROM.d51</name>
+            <inputs>
+                <tool>
+                    <name>XLINK</name>
+                    <file> 6 35 39 43 40</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Debug\Exe\IAP_AP_program_AP_Dataflash.d51</name>
+            <inputs>
+                <tool>
+                    <name>XLINK</name>
+                    <file> 6 8 13 43 40</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\IAP_AP_program_AP_Dataflash.C</name>
+            <outputs>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 13</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 11</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 30 14 26 7 16 10 32 23 22 9 31 21 0 41</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\IAP_LD_Program_AP.C</name>
+            <outputs>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 55</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 47</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 30 14 26 7 16 10 32 23 22 9 31 21 0 41</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 26 9 32 7 0 14 16 22 41 10 30 23 31 21</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\Library\StdDriver\src\eeprom.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 17</file>
+                </tool>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 35</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 33</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 30 14 26 7 16 10 32 23 22 9 31 21 0 41</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 26 9 32 7 0 14 16 22 41 10 30 23 31 21</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\IAP_AP_program_LD.C</name>
+            <outputs>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 57</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 51</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 30 14 26 7 16 10 32 23 22 9 31 21 0 41</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\IAP_BYTE.C</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 24</file>
+                </tool>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 39</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 20</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 30 14 26 7 16 10 32 23 22 9 31 21 0 41</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 26 9 32 7 0 14 16 22 41 10 30 23 31 21</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Debug\Exe\IAP_AP_program_LD.d51</name>
+            <inputs>
+                <tool>
+                    <name>XLINK</name>
+                    <file> 6 8 57 43 40</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Debug\Exe\IAP_LD_Program_AP.d51</name>
+            <outputs>
+                <tool>
+                    <name>XLINK</name>
+                    <file> 46</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>XLINK</name>
+                    <file> 6 8 45 43 40</file>
+                </tool>
+            </inputs>
+        </file>
+    </configuration>
+    <configuration>
+        <name>Release</name>
+        <outputs />
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>XLINK</tool>
+        </forcedrebuild>
+    </configuration>
+</project>
