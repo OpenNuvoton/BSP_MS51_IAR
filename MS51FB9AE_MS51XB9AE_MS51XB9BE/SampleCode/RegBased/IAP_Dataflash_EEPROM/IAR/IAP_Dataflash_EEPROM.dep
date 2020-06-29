@@ -1,202 +1,106 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project>
-    <fileVersion>4</fileVersion>
+    <fileVersion>2</fileVersion>
     <fileChecksum>341622107</fileChecksum>
     <configuration>
         <name>Debug</name>
         <outputs>
-            <file>$TOOLKIT_DIR$\inc\clib\stdarg.h</file>
-            <file>$PROJ_DIR$\..\IAP_BYTE.C</file>
-            <file>$TOOLKIT_DIR$\config\devices\Nuvoton\lnk51ew_MS51_16K.xcl</file>
-            <file>$PROJ_DIR$\Debug\Obj\IAP_BYTE.__cstat.et</file>
-            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\IAP.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\eeprom.__cstat.et</file>
-            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\sys.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\uart.__cstat.et</file>
-            <file>$TOOLKIT_DIR$\inc\clib\stdio.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\src\IAP_BYTE.c</file>
-            <file>$PROJ_DIR$\Debug\Obj\IAP_BYTE.r51</file>
-            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\src\sys.c</file>
-            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\src\eeprom.c</file>
-            <file>$TOOLKIT_DIR$\config\devices\_generic\lnk51ew_8052.xcl</file>
-            <file>$PROJ_DIR$\Debug\Obj\eeprom.r51</file>
-            <file>$PROJ_DIR$\..\..\..\..\Library\Device\Include\SFR_Macro.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\sys.pbi</file>
-            <file>$PROJ_DIR$\..\..\..\..\Library\Device\Include\MS51_16K_IAR.H</file>
-            <file>$PROJ_DIR$\Debug\List\IAP_Dataflash_EEPROM.map</file>
-            <file>$PROJ_DIR$\..\..\..\..\Library\Device\Include\Function_define.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\watchdog.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\eeprom.pbi</file>
-            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\uart.h</file>
-            <file>$PROJ_DIR$\Debug\Exe\IAP_Dataflash_EEPROM.d51</file>
-            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\Common.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\sys.r51</file>
-            <file>$TOOLKIT_DIR$\lib\clib\cl-pli-nsic-2h16inc.r51</file>
-            <file>$PROJ_DIR$\Debug\Obj\uart.pbi</file>
-            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\eeprom.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\IAP_BYTE.pbi</file>
-            <file>$TOOLKIT_DIR$\inc\clib\sysmac.h</file>
             <file>$TOOLKIT_DIR$\inc\clib\string.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\src\uart.c</file>
-            <file>$PROJ_DIR$\Debug\Exe\TIAP_Dataflash_EEPROM.d51</file>
-            <file>$PROJ_DIR$\Debug\Obj\uart.r51</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\uart.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\eeprom.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\IAP.h</file>
+            <file>$TOOLKIT_DIR$\inc\clib\stdarg.h</file>
+            <file>$PROJ_DIR$\Debug\Exe\IAP_Dataflash_EEPROM.d51</file>
+            <file>$PROJ_DIR$\Debug\Obj\IAP_BYTE.pbi</file>
             <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\delay.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\sys.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\inc\clib\sysmac.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\sys.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\clib\stdio.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\sys.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\Device\Include\SFR_Macro.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\sys.r51</file>
+            <file>$PROJ_DIR$\Debug\Obj\IAP_Dataflash_EEPROM.pbd</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\Device\Include\Function_define.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\Common.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\inc\watchdog.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\Device\Include\MS51_16K_IAR.H</file>
+            <file>$PROJ_DIR$\Debug\Obj\eeprom.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\IAP_BYTE.r51</file>
+            <file>$PROJ_DIR$\Debug\Obj\eeprom.r51</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\src\eeprom.c</file>
+            <file>$PROJ_DIR$\..\IAP_BYTE.C</file>
+            <file>$PROJ_DIR$\..\..\..\..\Library\StdDriver\src\sys.c</file>
         </outputs>
         <file>
             <name>[ROOT_NODE]</name>
             <outputs>
                 <tool>
                     <name>XLINK</name>
-                    <file> 23 18</file>
+                    <file> 5</file>
                 </tool>
             </outputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\IAP_BYTE.C</name>
-            <outputs>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 3</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 29</file>
-                </tool>
-                <tool>
-                    <name>ICC8051</name>
-                    <file> 10</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 8 6 15 24 30 31 19 28 35 0 17 22</file>
-                </tool>
-                <tool>
-                    <name>ICC8051</name>
-                    <file> 17 8 0 30 31 15 19 4 6 28 24 35 22 20</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\Library\StdDriver\src\IAP_BYTE.c</name>
-            <outputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 29</file>
-                </tool>
-                <tool>
-                    <name>ICC8051</name>
-                    <file> 10</file>
-                </tool>
-            </outputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\Library\StdDriver\src\sys.c</name>
-            <outputs>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 36</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 16</file>
-                </tool>
-                <tool>
-                    <name>ICC8051</name>
-                    <file> 25</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 8 6 15 24 30 31 19 28 35 0 17 22</file>
-                </tool>
-                <tool>
-                    <name>ICC8051</name>
-                    <file> 17 8 0 30 31 15 19 4 6 28 24 35 22 20</file>
-                </tool>
-            </inputs>
         </file>
         <file>
             <name>$PROJ_DIR$\..\..\..\..\Library\StdDriver\src\eeprom.c</name>
             <outputs>
                 <tool>
-                    <name>__cstat</name>
-                    <file> 5</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
+                    <name>ICC8051</name>
                     <file> 21</file>
                 </tool>
                 <tool>
-                    <name>ICC8051</name>
-                    <file> 14</file>
+                    <name>BICOMP</name>
+                    <file> 19</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 8 6 15 24 30 31 19 28 35 0 17 22</file>
-                </tool>
-                <tool>
-                    <name>ICC8051</name>
-                    <file> 17 8 0 30 31 15 19 4 6 28 24 35 22 20</file>
+                    <file> 11 0 1 15 16 10 12 3 2 7 17 4 8 18</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\Debug\Exe\IAP_Dataflash_EEPROM.d51</name>
+            <name>$PROJ_DIR$\..\IAP_BYTE.C</name>
             <outputs>
                 <tool>
-                    <name>XLINK</name>
-                    <file> 18</file>
+                    <name>ICC8051</name>
+                    <file> 20</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 6</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
-                    <name>XLINK</name>
-                    <file> 2 14 10 25 26</file>
+                    <name>BICOMP</name>
+                    <file> 11 0 1 15 16 10 12 3 2 7 17 4 8 18</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\..\Library\StdDriver\src\uart.c</name>
+            <name>$PROJ_DIR$\..\..\..\..\Library\StdDriver\src\sys.c</name>
             <outputs>
                 <tool>
-                    <name>__cstat</name>
-                    <file> 7</file>
+                    <name>ICC8051</name>
+                    <file> 13</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 27</file>
-                </tool>
-                <tool>
-                    <name>ICC8051</name>
-                    <file> 34</file>
+                    <file> 9</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 24 15 0 8 6 22 30 31 19 28 35 17</file>
-                </tool>
-                <tool>
-                    <name>ICC8051</name>
-                    <file> 17 8 0 30 31 15 19 6 28 24 35 22</file>
+                    <file> 12 17 2 10 3 7 4 8 0 15 11 16 1 18</file>
                 </tool>
             </inputs>
         </file>
-        <file>
-            <name>$PROJ_DIR$\Debug\Exe\TIAP_Dataflash_EEPROM.d51</name>
-            <inputs>
-                <tool>
-                    <name>XLINK</name>
-                    <file> 13 14 10 25 34 26</file>
-                </tool>
-            </inputs>
-        </file>
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>XLINK</tool>
+        </forcedrebuild>
     </configuration>
     <configuration>
         <name>Release</name>
